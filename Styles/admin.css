@@ -1,0 +1,61 @@
+#adminhome{display:block;
+           background:rgba(255,255,255,0.8);
+           width:100%;
+           height:400px;
+           font-size:45px;
+           color:rgb(206,87,102);
+           text-align:center;
+           padding-top:5px;
+           padding-bottom:5px;
+           font-weight:bold;
+}
+
+.adminbtn{height:40px;
+          width:80px;
+          font-size:16px;
+          margin:8px;
+
+}
+
+.adminbtn:hover{background:rgba(206,87,102,0.8);
+              color:white;
+}
+
+#adminimg1{display:block;
+     border-radius:20px;
+     height:180px;
+     width:180px;
+     margin:0 auto;
+      
+}
+
+.headbtn{display:block;
+        height:40px;
+        width:100px;
+        text-align:center;
+        background-color:#CE5766;
+        color:white;
+        font-family:firma;
+        font-size:20px;
+}
+
+a{text-decoration:none;
+}
+
+.headbtn:hover{background:rgba(206,87,102,0.8);
+              color:white;
+}
+
+
+.adminhd{display:block;
+	      height:30px;
+	      width:70px; 
+              margin:5px auto;
+              background-color:#CE5766;
+              text-align:center;
+	      color:white;            
+}
+
+#admin_display{background-color:#CE5766;
+	     width="100%;
+}

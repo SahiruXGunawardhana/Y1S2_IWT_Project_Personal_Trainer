@@ -1,0 +1,67 @@
+/*Form div*/
+#bodyadminforms{display:block;
+         border-radius:10px;
+         margin:10px auto 10px auto;
+         height:100%;
+         width:500px;
+         align:center;
+         background:rgba(255,255,255,0.8); 
+         padding:10px;
+         font-size:18px;
+         
+ 
+}
+
+#bodyeditforms{display:block;
+         border-radius:10px;
+         margin:10px auto 10px auto;
+         height:550px;
+         width:500px;
+         align:center;
+         background:rgba(255,255,255,0.8); 
+         padding:10px;
+         font-size:18px;
+         
+ 
+}
+
+
+
+/*admin form h2*/
+.adminformh2{text-align:center;
+       color:#CE5766;
+       font-size:28px;
+}
+
+
+
+/*Form input areas' width*/
+input[type=text],[type=email],[type=tel],[type=password]{width:300px;
+                                                height:25px;
+}
+
+/*Form submit button*/
+input[type=submit]{height:30px;
+                   width:100px;
+                   margin:10px;
+                   font-size:20px;
+}
+
+input[type=submit]:hover{background-color:#CE5766;
+                         color:white;
+                   
+}
+
+#inqgend{margin:0 5px 40px 0;
+}
+
+#loginadmin{display:block;
+         border-radius:10px;
+         margin:10px auto 10px auto;
+         height:400px;
+         width:500px;
+         align:center;
+         background:rgba(255,255,255,0.8); 
+         padding:10px;
+         font-size:18px;
+}

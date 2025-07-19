@@ -1,0 +1,165 @@
+/*Font family*/
+@font-face{
+    font-family:firma;
+    src:url(BRFirma-Medium.ttf);
+}
+
+/*Footer*/
+#tb2{width:100%;
+     height:150px;
+     background:rgba(206,87,102,0.5);
+     margin-bottom:auto;
+     padding:5px;
+    font-family:firma;
+}
+
+
+/*Logo*/
+#img1{display:block;
+     border-radius:20px;
+     height:180px;
+     width:180px;
+     padding:0;
+     margin:0;
+      align:left;
+      
+}
+/*Horizontal Navigation Bar*/
+.nav1{list-style-type:none;
+      margin:0;
+      padding:0;
+      over-flow:hidden;
+}
+
+.nav_1{float:right;
+       
+}
+
+.nav_1a{display:block;
+        height:20px;
+        width:90px;
+        text-align:center;
+        margin:20px 5px;
+        padding:10px;
+        background-color:#CE5766;
+        color:white;
+        text-decoration:none;
+        font-family:firma;
+        
+}
+
+.nav_1a:hover{background:rgba(206,87,102,0.5);
+              color:white;
+}
+
+#Mtb1{background-image:url("../Images/head.jpg");
+}
+
+
+
+/*Background Image*/
+body{background-image:url("../Images/backg.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+}
+
+#homebg{position:relative;
+	background:rgba(0,0,0,0.4);
+        font-family:firma;
+        padding:5px;
+          
+}
+
+/*Social Media on the footer*/
+.Smedia{list-style-type:none;
+        margin:0;
+        padding:0;
+        over-flow:none;
+}
+
+.Smediali{float:left;
+}
+
+.Simg{display:block;
+      border-radius:15px;
+      height:40px;   
+      width:40px;
+      margin:20px;
+}
+
+/*Footer table*/
+.tb2_a{text-decoration:none;
+       display:block;
+       margin:0;
+       padding:0;
+       height:10px;
+       width:300px;
+       color:white;
+}
+.tb2_a:hover{
+       color:black;
+}
+
+/*Result Images*/
+.resultimg{display:block;
+           height:350px;
+           width:350px;
+}
+/*Headers */
+.Head2{display:block;
+       height:40px;
+       width:120px;
+       text-align:center;
+       background-color:#CE5766;
+       color:white;  
+       font-size:28px;   
+}
+
+/*Testimonials Images*/
+.Testimg{display:block;
+         border-radius:50px;
+         height:250px;
+         width:200px;
+ }
+
+/*Testimonials Header*/
+
+#testi{display:block;
+       height:40px;
+       width:200px;
+       text-align:center;
+       background-color:#CE5766;
+       color:white;
+       font-size:28px;  
+}
+
+/*Testimonials Descriptions*/
+.Tdesc{display:block;
+       background:rgba(206,87,102,0.4);
+       color:white;
+       width:300px; 
+       font-size:20px;
+}
+
+/*Cover Image*/
+.cover{display:block;
+       height:470px;
+       width:100%;
+}
+
+/*Buttons in Testimonials and Results*/
+.move{display:block;
+      text-align:center;
+      height:200px;
+      width:20px;
+      margin:0;
+      padding:0;
+      background-color:#CE5766;
+     color:white;
+}
+
+.move:hover{background:rgba(206,87,102,0.7);
+              color:white;
+}
+

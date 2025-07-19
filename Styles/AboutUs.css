@@ -1,0 +1,30 @@
+h1.Rtitle{
+    text-align: center;
+    font-size: 70px;
+    background-color: white;
+}
+
+p.Rdouble{
+    border-style: double;
+    border-width: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color: azure;
+}
+
+h2.Rtag{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+}
+th.Rtable{
+    font-size: 30px;
+    color: aquamarine;
+    background-color: darkslategrey;
+
+}
+p.Rparagraf{
+    font-size: 20px;
+}

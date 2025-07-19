@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Login</title>
+  <link rel="stylesheet" type="text/css" href="Styles/Home.css">
+  <link rel="stylesheet" type="text/css" href="Styles/login.css">
+  <script src="JavaScripts/login.js"></script>
+  <script src="JavaScripts/Home.js"></script>
+
+ </head>
+ <body>
+
+
+  <table id="Mtb1" width="100%">
+     <tr>
+      <th width="20%">
+      <!----------Logo -------->
+       <a href="Home.html"><img src="Images/logo.jpg" alt="Logo" id="img1"></a>
+      </th>
+   
+    <th id="navwidth">
+      <!----------Navigation Bar -------->  
+     <ul class="nav1">
+      <li class="nav_1"><a href="login.html" class="nav_1a">Login</a></li>
+      <li class="nav_1"><a href="ContactUs.php" class="nav_1a">       Contact Us </a></li>
+      <li class="nav_1"><a href="Blog.php" class="nav_1a">       Blog</a></li>
+      <li class="nav_1"><a href="Shop.php" class="nav_1a">Shop</a></li>
+      <li class="nav_1"><a href="AboutUs.php" class="nav_1a">        About Us</a></li>
+      <li class="nav_1"><a href="Home.php" class="nav_1a">Home</a></li>
+     </ul>
+    </th>
+    </tr>
+  </table>
+    
+      <hr id="hr1">
+<div class="wrapper">
+    <div class="login-main-container">
+        <div class="login-box">
+            <h2>Member Login</h2>
+            <form action="login.php" method="post" autocomplete="off">
+                <div class="input-box">
+                    <input type="email" name="mail" required>
+                    <label>Email</label>
+
+                </div>
+                <div class="input-box">
+                    <input type="password" name="pass"required>
+                    <label>Password</label>
+                </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox" name="remember">Remember me </label>
+                        <a href="forgotPwd.php">Forgot Password?</a>
+                    </div>
+
+                
+                <button type="submit" class="btn-login" name="login">Login</button>
+                <div class="login-register">
+                    <p>Not a member?
+                    <a href="signupform.php" class="register-link">Register</a></p><br>
+                    <p>
+                    <a href="adminlogin.php" class="register-link">Login as Admin</a></p>
+                </div>
+            </form>
+        </div>
+      </div>
+</div>
+      
+     
+
+ <footer class="f1">
+  <table id="tb2" width="100%">
+   <tr>
+    <td><p><a href="Home.php" class="tb2_a">Home</a> <br>
+           <a href="AboutUs.php" class="tb2_a">About Us</a><br>
+           <a href="Shop.php" class="tb2_a">Shop</a><br> </p>
+    </td>
+    <td><p><a href="Blog.php" class="tb2_a">Blog </a><br>
+          <a href="ContactUs.php" class="tb2_a"> Contact Us</a><br>
+           </p>
+    </td>
+    <td><p><a href="terms.php" class="tb2_a">Terms & Conditions</a> <br>
+           <a href="privacy.php" class="tb2_a">Privacy Policy</a><br>
+           </p>
+    </td>
+    <td>
+        <p style="color:white;margin:0;padding:0;">Social Media</p>
+        <ul class="Smedia">
+         <li class="Smediali"><img src="Images/fb.png" class="Simg"> </li>
+         <li class="Smediali"> <img src="Images/insta.png" class="Simg"></li>
+         <li class="Smediali"><img src="Images/ytube.png" class="Simg" > </li>
+         <li class="Smediali"><img src="Images/tiktok.png" class="Simg"> </li>
+        </ul>
+    </td>
+   </tr>
+  </table>
+ </footer>
+ 
+
+
+
+ </body>
+</html>

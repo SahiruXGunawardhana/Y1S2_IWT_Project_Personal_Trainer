@@ -1,0 +1,34 @@
+.btn-logout{
+    background-color: rgb(6, 37, 95);
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    outline: auto;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.welcome-image{
+    height:100%;
+    width:50%;
+    
+}
+
+.logindisplay-container{
+    padding: 100px;
+    background-color:#fff;
+    width:80%;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.btn-logout:hover{
+background-color: rgb(2, 13, 68);
+}

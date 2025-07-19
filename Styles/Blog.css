@@ -1,0 +1,23 @@
+h1.Ratitle{
+    text-align: center;
+    color:white;
+}
+
+.blogth{
+    padding: 100px;
+    display:block;
+    float: left;
+    font-size: 18px;
+    color:white;   
+}
+
+li.Raword{
+    padding: 5px;
+    list-style-type: none;
+    margin-right: 1cm;
+    border: 1px solid black;
+    text-align: left;
+}
+
+summary{background:rgba(206,87,102,0.5);
+}

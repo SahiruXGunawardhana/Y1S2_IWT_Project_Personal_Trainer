@@ -1,0 +1,82 @@
+/*FAQ heading container*/
+.FAQheading{
+    text-align:center;
+    background-image: linear-gradient(to right, rgba(27, 5, 5, 0.8), rgba(97, 17, 17, 0.581),rgba(27, 5, 5, 0.8)); 
+    padding: 50px 0;
+}
+
+/*FAQ heading h1*/
+.FAQheading h1{
+    font-size: 60px;
+    font-family: "Georgia", serif;
+    color:rgba(255, 255, 255, 0.801);
+    font-style: italic;
+}
+
+/*FAQ container*/
+.setContainer{
+    margin: 100px 200px;
+    padding: 20px 0px;
+    background-color: rgba(225, 233, 239, 0.853);
+    text-align: justify;
+    border:1px solid red;
+    border-radius: 5px;
+}
+
+/*FAQ container qustions and answers containers*/
+.setContainer .set{
+    background-color: rgba(199, 160, 195, 0.8);
+    border:none;
+    margin: 5px 20px;
+    padding:20px;
+    border-radius: 5px;
+}
+
+/*Questions*/
+.setContainer .set h3{
+    font-size: 15px;
+}
+
+/*Answers*/
+.setContainer .set p{
+    font-size: 13px;
+}
+
+/*hiding answers*/
+.answr{
+    display:none;
+}
+
+/*buttons*/
+.setContainer button{
+    margin-left: 80px;
+    border:none;
+    border-radius: 4px;
+    padding:8px 10px;
+    background-color: brown;
+    color:antiquewhite;
+}
+
+/*buttons pop up when mouse hover*/
+.setContainer button:hover {
+    transform: scale(1.1);
+}
+
+/*fitness images container*/
+.Images{
+    background-color: rgba(242, 242, 242, 0.9);
+}
+
+/*fitness images*/
+.FAQimg{
+    display:block;
+    height:300px;
+    width:350px;
+    border-radius: 10px;
+    margin:5px auto;
+    border: 3px solid rgb(160, 35, 35);
+}
+
+
+
+    

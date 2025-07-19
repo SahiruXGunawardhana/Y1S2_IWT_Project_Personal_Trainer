@@ -1,0 +1,60 @@
+/*Form div*/
+
+.bodyinq{display:block;
+         margin:10px auto 10px auto;
+         border-radius:10px;
+         height:1050px;
+         width:800px;
+         align:center;
+         background:rgba(255,255,255,0.7); 
+         padding:10px;
+         }
+
+/*Form image*/
+#inqimg{display:block;
+         margin-right:auto;
+         margin-left:auto;
+        height:350px;
+        width:735px;
+        
+}
+
+/*Form table column width*/
+.inqtd{width:500px;
+      
+}
+
+/*Inquairy header*/
+#inqhead{display:block;
+       height:40px;
+       width:120px;
+       text-align:center;
+       background-color:#CE5766;
+       color:white;
+       font-size:28px;
+}
+
+/*Form headers*/
+.inqformehd{font-weight:bold;
+            font-size:28px;
+}
+
+/*Form input areas' width*/
+input[type=text],[type=email],[type=tel],select{width:300px;
+                                                height:25px;
+}
+
+/*Form submit button*/
+input[type=submit]{height:30px;
+                   width:100px;
+                   margin:10px;
+}
+
+input[type=submit]:hover{background-color:#CE5766;
+                         color:white;
+                   
+}
+
+#inqgend{margin:0 5px 40px 0;
+}
+

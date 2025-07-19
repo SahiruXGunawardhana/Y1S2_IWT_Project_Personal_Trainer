@@ -1,0 +1,127 @@
+/*styles to form container*/
+div.Form_container_2{
+    background: rgba(255, 255, 255, 0.4); /* Semi-transparent white */
+    border:2px solid rgb(230, 101, 101);
+    border-radius: 6px;
+    width:350px;/*need to know---------------------------*/
+    text-align:center;
+    height:320px;
+    padding:5px;
+}
+
+/*styles to the forgot password*/
+form{
+    padding:20px;
+    font-size: 18px;
+}
+
+/*styles to email field*/
+#email{
+    width:100%;
+	padding:10px 18px;
+	margin:8px 0;
+	display:inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/*send button(when disabled)*/
+input[type=submit]:disabled {
+    background-color: #695969c6;
+    cursor: not-allowed;
+}
+
+/*add hover effect to send button*/
+input[type=submit]:hover{
+    background-color:#f00d59;
+}
+
+/*send button*/
+input[type=submit]{
+    background-color:#950606c6;
+    font-size: 15px;
+	color:white;
+	border:none;
+	border-radius:4px;
+    padding:5px;
+    margin:8px 0;
+	width:110px;
+	cursor:pointer;	
+}
+
+/*back to login & sign up links container*/
+.links{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+/*back to login & sign up links within container*/
+.log_sign{
+    border:none;
+    border-radius:4px;
+    padding:4px 6px;
+    color:white;
+    background-color:#894a89c6;
+}
+
+.log_sign:hover{
+    background-color: rgba(222, 14, 73, 0.659);
+}
+
+#form_container_1 {
+    display: flex;/*Turns the form_container_1 container into a Flexbox container.*/
+    justify-content: center;/*Horizontally centers the child elements within the Flexbox container.*/
+    align-items: center;
+    height:650px;
+   /*-------------------consider after------------------*/ /*height: 100vh;/* Full viewport height to center vertically */
+    position: relative;/*While not directly used in the provided snippet, */
+    padding: 20px;   /*setting position: relative; can be useful if you plan to position elements relative to 
+                       form_container_1      in the future (e.g., layering with z-index).*/
+}
+
+/*help instructions container*/
+.helpInstruct{
+    background-color:rgba(255, 255, 255, 0.6);
+    width:400px;
+    height:auto;
+    box-sizing: border-box;
+    border:1px solid grey;
+    border-radius: 6px;
+    padding:10px;
+}
+
+/*texts in help instructions container*/
+.helpTxt{
+    display:inline;
+}
+
+/*help button*/
+.helpButton{
+    background-color:#950606c6;
+    font-size: 15px;
+	color:white;
+	border:none;
+	border-radius:4px;
+    padding:8px;
+    margin-top:3px;
+    margin-left:15px;
+	width:100px;
+	cursor:pointer;
+}
+
+.helpButton:hover{
+    background-color:#f00d59;
+    cursor:pointer;
+}
+
+/*top-left text to reset password*/
+.headtxt{
+    color:rgb(200, 132, 161);
+    margin-left:15px;
+    padding:3px;
+}
+
+

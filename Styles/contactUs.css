@@ -1,0 +1,134 @@
+/*contact us heading*/
+#contactHeading {
+    background-image: linear-gradient(to right, rgba(27, 5, 5, 0.8), rgba(97, 17, 17, 0.581),rgba(27, 5, 5, 0.8)); 
+    padding: 50px 0; /* Adds vertical padding to increase the height */
+    text-align: center; /* Centers the text within the div */
+}
+
+/*text in heading*/
+.contactTxt h1{
+    font-size: 60px;
+    font-family: "Georgia", serif;
+    color:rgba(255, 255, 255, 0.801);
+    font-style: italic;
+}
+
+/*text in heading*/
+.contactTxt h3{
+    font-size: 25px;
+    color: rgb(188, 182, 182);
+}
+
+/*basic form styles*/
+fieldset{
+    background-color:rgba(242, 242, 242, 0.9);
+	padding: 20px;
+    border:2px solid rgb(230, 101, 101);
+	border-radius:5px;
+}
+
+/*styles to form input fields */
+.fldstyles{
+    width:100%;
+	padding:10px 18px;
+	margin:8px 6px;
+	display:inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    box-sizing: border-box;
+    background-color:rgba(255, 255, 255, 0.612);
+}
+
+/*send button*/
+input[type=submit]{
+    background-color:#950606c6;
+	color:white;
+	border:none;
+	border-radius:4px;
+    padding:5px;
+    margin:8px 0;
+	width:110px;
+	cursor:pointer;	
+}
+
+/*send buttonwhen disabled*/
+input[type=submit]:disabled {
+    background-color: #695969c6;
+    cursor: not-allowed;
+}
+
+/*add hover ifferct to the button*/
+input[type=submit]:hover{
+    background-color:#f00d59;
+}
+
+/*form cantainer+ static content*/
+.Container {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;/*align the items of the container to verticallly center*/
+    margin: 20px 0;
+    padding:20px;
+    height:100%;
+    
+}
+
+/*static content rigth side*/
+.stContent{
+    background-color:rgba(255, 255, 255, 0.8);
+    padding: 20px;    /* Add padding for some space around the content */
+    border:1px solid #ccc;
+    border-radius: 5px;
+    width:350px;
+}
+
+/*set form width*/
+.conctacForm{
+    width:800px;
+}
+
+/*static content styles*/
+.statTxt h5{
+    font-size: 16px;
+    color:#333;
+    margin:5px 0;
+}
+
+.statTxt p{
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+
+/*map*/
+.location{
+    width:100%;
+    padding:40px;
+    background: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+
+.location iframe{
+    width:100%;
+    border-radius: 5px;
+}
+
+/*clear button*/
+.clearbtn{
+    margin-left: 570px;
+    border:none;
+    border-radius: 3px;
+    background-color: #695969c6;
+    color:white;
+    padding:5px;
+    cursor:pointer;
+}
+
+.clearbtn:hover{
+    background-color: #6a0c59;
+}
